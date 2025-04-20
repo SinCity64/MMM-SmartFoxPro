@@ -18,7 +18,7 @@ Weiteres:
 - Die Zählerstände werden von SmartFoxpro bei Mitternacht jeweils genullt (Ausnahme letzte Aufladung > Car)
 
 Hinweise:
-- Dies ist eine Quick & Dirty Erweiterung die an meine Bedürfnisse angepasst sind
+- Dies ist eine Quick & Dirty Erweiterung die an meine System-Umgebung angepasst ist
 - Ich werde daran nichts Wesentliches ändern solange diese für mich funktioniert
 - Erweiterungen und Verbesserungen werden nach und nach für meinen Nutzen angepasst
 - Anfragen betreffend komplexer Anpassungen an ihre Umgebung/Wünsche kann ich nicht beantworten
