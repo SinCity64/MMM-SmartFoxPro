@@ -4,20 +4,15 @@ Dies ist ein MagicMirror Modul, das die Daten von SmartFoxPro Energiemanager (ih
 
 Das Modul zeigt die folgenden Daten an und kann, entsprechende Programmierkenntnisse vorausgesetzt, beliebig erweitert werden.
 
-Ikone 
-> Photovoltaik / Aktuelle produktion in kW und Tagesproduktion in kWh
-> Grid / Aktuelle Lieferung kW (Minus-Anzeige) und aktueller Bezug in kW
-> Home
-> Boiler
-> Car
-> battery / aktuell nicht implementiert
+Ikonen:
+- Photovoltaik / Aktuelle produktion in kW und Tagesproduktion in kWh
+- Grid / Aktuelle Lieferung kW (Minus-Anzeige) und aktueller Bezug in kW
+- Home / Aktueller Verbrauch in kW und Tagesverbrauch in kWh
+- Boiler / Aktueller Verbrauch in kW und Tagesverbrauch in kWh
+- Car / Aktueller Verbrauch in kW und Tagesverbrauch in kWh (letzte Aufladung)
+- Battery / aktuell nicht implementiert
 
-Einspeisen / Beziehen
-Verbrauch
-Tagesertrag
-Gesamt Etrag
-Autonomie Grad in %
-Wenn Strom Eingespeist wird ist die Schrift für Einspeisen grün und wenn Strom bezogen wird, ist die Schrift für Beziehen rot.
+Die Ikonen sind alle auf Grün, sobald die Photofoltaik-Anlage Strom produziert, anderfalls werde diese auf Rot gestellt.
 
 
 # MMM-Template
