@@ -1,7 +1,24 @@
-# MMM-SmartFoxpro
-Use this template for creating new MagicMirror² modules.
+# MMM-SmartFoxPro
 
-See the [wiki page](https://github.com/Dennis-Rosenbaum/MMM-Template/wiki) for an in depth overview of how to get started.
+Dies ist ein MagicMirror Modul, das die Daten von SmartFoxPro Energiemanager (ihre IP-Adresse/values.xml) ausliest.
+
+Das Modul zeigt die folgenden Daten an und kann, entsprechende Programmierkenntnisse vorausgesetzt, beliebig erweitert werden.
+
+Ikone 
+> Photovoltaik / Aktuelle produktion in kW und Tagesproduktion in kWh
+> Grid / Aktuelle Lieferung kW (Minus-Anzeige) und aktueller Bezug in kW
+> Home
+> Boiler
+> Car
+> battery / aktuell nicht implementiert
+
+Einspeisen / Beziehen
+Verbrauch
+Tagesertrag
+Gesamt Etrag
+Autonomie Grad in %
+Wenn Strom Eingespeist wird ist die Schrift für Einspeisen grün und wenn Strom bezogen wird, ist die Schrift für Beziehen rot.
+
 
 # MMM-Template
 
