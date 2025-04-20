@@ -14,7 +14,7 @@ Ikonen:
 
 Weiteres:
 - Die Ikonen sind alle auf Grün, sobald die Photofoltaik-Anlage Strom produziert, anderfalls werde diese auf Rot gestellt
-- Die Verbindungslinien und werden nur dann angezeogt, wenn diese effektiv genutzt werden (Verbrauch / Lieferung)
+- Die Verbindungslinien und Zähler werden nur dann angezeigt, wenn diese effektiv genutzt werden (Verbrauch / Lieferung)
 - Die Zählerstände werden von SmartFoxpro bei Mitternacht jeweils genullt (Ausnahme letzte Aufladung > Car)
 
 Hinweise:
