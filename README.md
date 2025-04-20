@@ -12,7 +12,11 @@ Ikonen:
 - Car / Aktueller Verbrauch in kW und Tagesverbrauch in kWh (letzte Aufladung)
 - Battery / aktuell nicht implementiert
 
-Die Ikonen sind alle auf Grün, sobald die Photofoltaik-Anlage Strom produziert, anderfalls werde diese auf Rot gestellt.
+Weiteres:
+- Die Ikonen sind alle auf Grün, sobald die Photofoltaik-Anlage Strom produziert, anderfalls werde diese auf Rot gestellt
+- Die Verbindungslinien und werden nur dann angezeogt, wenn diese effektiv genutzt werden (Verbrauch / Lieferung)
+- Die Zählerstände werden von SmartFoxpro bei Mitternacht jeweils genullt (Ausnahme letzte Aufladung > Car)
+
 
 ![002 Github PNG](https://github.com/user-attachments/assets/563d1d28-9f72-4703-a63e-c7e8b8a2fba1)
 
