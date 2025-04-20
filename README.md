@@ -17,7 +17,14 @@ Weiteres:
 - Die Verbindungslinien und werden nur dann angezeogt, wenn diese effektiv genutzt werden (Verbrauch / Lieferung)
 - Die Zählerstände werden von SmartFoxpro bei Mitternacht jeweils genullt (Ausnahme letzte Aufladung > Car)
 
-
+Hinweise:
+- Dies ist eine Quick & Dirty Erweiterung die an meine Bedürfnisse angepasst sind, 
+  ich werde daran nichts wesentliches ändern solange diese für mich funktioniert
+- Erweiterungen und Verbesserungen werden nach und nach für meinen Nutzen angepasst.
+- Anfragen betreffend komplexer Anpassungen an ihre Umgebung/Wünsche kann ich nicht beantworten
+- Für die Umsetzung kleinerer Wünsche können sie mich gerne kontaktieren.
+- 
+Updates wird es nnicht geben, solange es bei mir läuft....
 ![002 Github PNG](https://github.com/user-attachments/assets/563d1d28-9f72-4703-a63e-c7e8b8a2fba1)
 
 [Module description]
