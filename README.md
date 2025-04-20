@@ -14,10 +14,7 @@ Ikonen:
 
 Die Ikonen sind alle auf Grün, sobald die Photofoltaik-Anlage Strom produziert, anderfalls werde diese auf Rot gestellt.
 
-
-# MMM-Template
-
-![Example of MMM-Template](./002 Github PNG.png)
+![002 Github PNG](https://github.com/user-attachments/assets/563d1d28-9f72-4703-a63e-c7e8b8a2fba1)
 
 [Module description]
 
