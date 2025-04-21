@@ -37,7 +37,7 @@ cd ~/MagicMirror/modules
 
 Clone this repository:
 ```
-git clone https://github.com/
+git clone https://github.com/SinCity64/MMM-SmartFoxPro.git
 ```
 
 Configure the module in your `config.js` file.
