@@ -29,7 +29,7 @@ Hinweise:
 ## Dependencies
 - An installation of [MagicMirror<sup>2</sup>](https://github.com/MichMich/MagicMirror)
 
-## Installation
+## Install
 Navigate into your MagicMirror's `modules` folder:
 ```
 cd ~/MagicMirror/modules
@@ -37,44 +37,24 @@ cd ~/MagicMirror/modules
 
 Clone this repository:
 ```
-git clone https://github.com/SinCity64/MMM-SmartFoxPro.git
+git clone https://github.com/SinCity64/MMM-SmartFoxPro
 ```
 
 Configure the module in your `config.js` file.
 
 ## Update the module
 
-Navigate into the `MMM-ioBroker` folder with `cd ~/MagicMirror/modules/MMM-ioBroker` and get the latest code from Github with `git pull`.
+Navigate into the `MMM-SmartFoxPro` folder with `cd ~/MagicMirror/modules/MMM-SmartFoxPro` and get the latest code from Github with `git pull`.
 
 If you haven't changed the modules, this should work without any problems. Type `git status` to see your changes, if there are any, you can reset them with `git reset --hard`. After that, git pull should be possible.
 
 ## Using the module
 
-To use this module, add it to the modules array in the `config/config.js` file:
-
-### Install
-
-In your terminal, go to your [MagicMirror²][mm] Module folder and clone MMM-Template:
-
-```bash
-cd ~/MagicMirror/modules
-git clone [GitHub url]
-```
-
-### Update
-
-```bash
-cd ~/MagicMirror/modules/MMM-Template
-git pull
-```
-
-## Using the module
-
-To use this module, add it to the modules array in the `config/config.js` file:
+To use this module, add it to the modules array in the `config/config.js`
 
 ```js
     {
-        module: 'MMM-Template',
+        module: 'MMM-SmartFoxPro',
         position: 'lower_third'
     },
 ```
@@ -101,12 +81,6 @@ Option|Possible values|Default|Description
 
 Notification|Description
 ------|-----------
-`TEMPLATE_RANDOM_TEXT`|Payload must contain the text that needs to be shown on this module
-
-## Developer commands
-
-- `npm install` - Install devDependencies like ESLint.
-- `npm run lint` - Run linting and formatter checks.
-- `npm run lint:fix` - Fix linting and formatter issues.
+`TEMPLATE_RANDOM_TEXT`|Payload must contain the text that needs to be shown on this 
 
 [mm]: https://github.com/MagicMirrorOrg/MagicMirror
