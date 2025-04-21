@@ -26,9 +26,31 @@ Hinweise:
 
 ![002 Github PNG](https://github.com/user-attachments/assets/563d1d28-9f72-4703-a63e-c7e8b8a2fba1)
 
-[Module description]
+## Dependencies
+- An installation of [MagicMirror<sup>2</sup>](https://github.com/MichMich/MagicMirror)
 
 ## Installation
+Navigate into your MagicMirror's `modules` folder:
+```
+cd ~/MagicMirror/modules
+```
+
+Clone this repository:
+```
+git clone https://github.com/
+```
+
+Configure the module in your `config.js` file.
+
+## Update the module
+
+Navigate into the `MMM-ioBroker` folder with `cd ~/MagicMirror/modules/MMM-ioBroker` and get the latest code from Github with `git pull`.
+
+If you haven't changed the modules, this should work without any problems. Type `git status` to see your changes, if there are any, you can reset them with `git reset --hard`. After that, git pull should be possible.
+
+## Using the module
+
+To use this module, add it to the modules array in the `config/config.js` file:
 
 ### Install
 
