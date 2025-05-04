@@ -55,21 +55,12 @@ To use this module, add it to the modules array in the `config/config.js`
 
 ```js
     {
-        module: 'MMM-SmartFoxPro',
-        position: 'lower_third'
-    },
-```
-
-Or you could use all the options:
-
-```js
-    {
-        module: 'MMM-Template',
-        position: 'lower_third',
+        module: "MMM-SmartFoxPro",
+        position: "bottom_center",
         config: {
-            exampleContent: 'Welcome world'
+            url: "http://yourIP/values.xml", // http://xxx.xxx.x.xxx/values.xml eg http://smartfox.home/values.xml
+            updateInterval: 1000 * 15 // 15 Sekunden
         }
-    },
 ```
 
 ## Configuration options
@@ -77,11 +68,5 @@ Or you could use all the options:
 Option|Possible values|Default|Description
 ------|------|------|-----------
 `exampleContent`|`string`|not available|The content to show on the page
-
-## Sending notifications to the module
-
-Notification|Description
-------|-----------
-`TEMPLATE_RANDOM_TEXT`|Payload must contain the text that needs to be shown on this 
 
 [mm]: https://github.com/MagicMirrorOrg/MagicMirror
