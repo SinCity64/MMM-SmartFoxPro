@@ -1,24 +1,24 @@
 # MMM-SmartFoxPro
 
-Dies ist ein MagicMirror Modul, das die Daten von SmartFoxPro Energiemanager (ihre IP-Adresse/values.xml) ausliest.
+Dies ist ein MagicMirror Modul, welches die Daten von SmartFoxPro Energiemanager (ihre IP-Adresse/values.xml) ausliest.
 
 Das Modul zeigt die folgenden Daten an und kann, entsprechende Programmierkenntnisse vorausgesetzt, beliebig erweitert werden.
 
 Ikonen:
-- Photovoltaik / Aktuelle produktion in kW und Tagesproduktion in kWh
+- Photovoltaik / Aktuelle Produktion in kW und Tagesproduktion in kWh
 - Grid / Aktuelle Lieferung kW (Minus-Anzeige) und aktueller Bezug in kW
 - Home / Aktueller Verbrauch in kW und Tagesverbrauch in kWh
 - Boiler / Aktueller Verbrauch in kW und Tagesverbrauch in kWh
-- Car / Aktueller Verbrauch in kW und Tagesverbrauch in kWh (letzte Aufladung)
+- Car / Aktueller Verbrauch in kW und Tagesverbrauch und letzte Aufladung in kWh
 - Battery / aktuell nicht implementiert
 
 Weiteres:
-- Die Ikonen sind alle auf Grün, sobald die Photofoltaik-Anlage Strom produziert, anderfalls werde diese auf Rot gestellt
+- Die Ikonen sind alle auf Grün, sobald die Photovoltaik-Anlage Strom produziert, andernfalls werden diese auf Rot gestellt
 - Die Verbindungslinien und Zähler werden nur dann angezeigt, wenn diese effektiv genutzt werden (Verbrauch / Lieferung)
-- Die Zählerstände werden von SmartFoxpro bei Mitternacht jeweils genullt (Ausnahme letzte Aufladung > Car)
+- Die Zählerstände werden von SmartFoxPro bei Mitternacht jeweils genullt (Ausnahme letzte Aufladung > Car)
 
 Hinweise:
-- Dies ist eine Quick & Dirty Erweiterung die an meine System-Umgebung angepasst ist
+- Dies ist eine Quick & Dirty Erweiterung, die an meine System-Umgebung angepasst ist
 - Ich werde daran nichts Wesentliches ändern solange diese für mich funktioniert
 - Erweiterungen und Verbesserungen werden nach und nach für meinen Nutzen angepasst
 - Anfragen betreffend komplexer Anpassungen an ihre Umgebung/Wünsche kann ich nicht beantworten
