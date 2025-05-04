@@ -41,14 +41,6 @@ Clone this repository:
 git clone https://github.com/SinCity64/MMM-SmartFoxPro.git
 ```
 
-Configure the module in your `config.js` file.
-
-## Update the module
-
-Navigate into the `MMM-SmartFoxPro` folder with `cd ~/MagicMirror/modules/MMM-SmartFoxPro` and get the latest code from Github with `git pull`.
-
-If you haven't changed the modules, this should work without any problems. Type `git status` to see your changes, if there are any, you can reset them with `git reset --hard`. After that, git pull should be possible.
-
 ## Using the module
 
 To use this module, add it to the modules array in the `config/config.js`
@@ -67,6 +59,7 @@ To use this module, add it to the modules array in the `config/config.js`
 
 Option|Possible values|Default|Description
 ------|------|------|-----------
-`exampleContent`|`string`|not available|The content to show on the page
+`url`|`IP-Adress or alias`|not available|Url to your Smartfox Values.xml
+`updateInterval`|`milliseconds`|15 seconds|Ausleseintervall der Daten
 
 [mm]: https://github.com/MagicMirrorOrg/MagicMirror
