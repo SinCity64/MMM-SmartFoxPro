@@ -10,7 +10,7 @@
 Module.register("MMM-SmartFoxPro", {
     defaults: {
         url: "", // Die URL, von der die XML-Daten abgerufen werden sollen
-        updateInterval: 60000 // Intervall für den Abruf der Daten (in Millisekunden)
+        updateInterval: 15000 // Intervall für den Abruf der Daten (in Millisekunden)
     },
 
     start: function () {
