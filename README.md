@@ -27,6 +27,31 @@ Hinweise:
 
 ![SmartFoxpro.PNG](https://github.com/SinCity64/MMM-SmartFoxPro/blob/8762721d3c745bb54826b3b8da301fecc1203c37/SmartFoxPro.png)
 
+This is a MagicMirror module that reads the data from SmartFoxPro Energy Manager (your IP address/values.xml). See in the example Values.xml [Values.xml](https://github.com/SinCity64/MMM-SmartFoxPro/blob/71ab4732550ced66449d2ed4d214a6dfa38a84ae/Values.xml)
+
+The module displays the following data and can be extended as desired, assuming appropriate programming knowledge.
+
+Icons:
+- Photovoltaics / Current production in kW and daily production in kWh
+- Grid / Current delivery kW (minus display) and current purchase in kW
+- Home / Current consumption in kW and daily consumption in kWh
+- Boiler / Current consumption in kW and daily consumption in kWh
+- Car / Current consumption in kW as well as daily consumption and last charge in kWh
+- Battery / currently not implemented
+
+Further:
+- The icons are all green as soon as the photovoltaic system produces electricity, otherwise they are set to red
+- The connection lines and counters are only displayed if they are used effectively (consumption / delivery)
+- The meter readings are zeroed by SmartFoxPro at midnight (exception last charge > Car)
+
+Notes:
+- This is a Quick & Dirty extension adapted to my system environment
+- I won't change anything significant about it as long as it works for me
+- Extensions and improvements are gradually being adapted for my benefit
+- I cannot answer inquiries regarding complex adaptations to your environment/wishes
+- For the implementation of smaller wishes you are welcome to contact me
+
+
 ## Dependencies
 - An installation of [MagicMirror<sup>2</sup>](https://github.com/MichMich/MagicMirror)
 
