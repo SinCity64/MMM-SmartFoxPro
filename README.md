@@ -1,6 +1,7 @@
 # MMM-SmartFoxPro
 
 Dies ist ein MagicMirror Modul, welches die Daten von SmartFoxPro Energiemanager (ihre IP-Adresse/values.xml) ausliest.
+Siehe im Beispiel ![Values.xml](https://github.com/SinCity64/MMM-SmartFoxPro/blob/71ab4732550ced66449d2ed4d214a6dfa38a84ae/Values.xml)
 
 Das Modul zeigt die folgenden Daten an und kann, entsprechende Programmierkenntnisse vorausgesetzt, beliebig erweitert werden.
 
