@@ -85,6 +85,6 @@ To use this module, add it to the modules array in the `config/config.js`
 Option|Possible values|Default|Description
 ------|------|------|-----------
 `url`|`IP-Adress or alias`|not available|Url to your Smartfox Values.xml
-`updateInterval`|`milliseconds`|15 seconds|Readout interval of the data
+`updateInterval`|`milliseconds`|15000 (15 sec)|Readout interval of the data
 
 [mm]: https://github.com/MagicMirrorOrg/MagicMirror
