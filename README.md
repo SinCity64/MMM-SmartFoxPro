@@ -24,7 +24,7 @@ Hinweise:
 - Anfragen betreffend komplexer Anpassungen an ihre Umgebung/Wünsche kann ich nicht beantworten
 - Für die Umsetzung kleinerer Wünsche können sie mich gerne kontaktieren
 
-![002 Github PNG](https://github.com/user-attachments/assets/563d1d28-9f72-4703-a63e-c7e8b8a2fba1)
+![SmartFoxpro.PNG](https://github.com/SinCity64/MMM-SmartFoxPro/blob/8762721d3c745bb54826b3b8da301fecc1203c37/SmartFoxPro.png)
 
 ## Dependencies
 - An installation of [MagicMirror<sup>2</sup>](https://github.com/MichMich/MagicMirror)
