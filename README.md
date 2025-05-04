@@ -10,7 +10,7 @@ Ikonen:
 - Grid / Aktuelle Lieferung kW (Minus-Anzeige) und aktueller Bezug in kW
 - Home / Aktueller Verbrauch in kW und Tagesverbrauch in kWh
 - Boiler / Aktueller Verbrauch in kW und Tagesverbrauch in kWh
-- Car / Aktueller Verbrauch in kW und Tagesverbrauch und letzte Aufladung in kWh
+- Car / Aktueller Verbrauch in kW sowie Tagesverbrauch und letzte Aufladung in kWh
 - Battery / aktuell nicht implementiert
 
 Weiteres:
