@@ -101,13 +101,13 @@ module.exports = NodeHelper.create({
 	},
 });
 
-	function getValueById(result, id) {
-		// Gehe durch alle 'value'-Elemente und finde das passende 'id'
-		const value = result.values.value.find(item => item.$.id === id);
-		if (value) {
-			return value._; // Gibt den Wert zurück
-		} else {
-			console.warn(`Kein Wert gefunden für ID: ${id}`);
-			return null; // Gibt null zurück, wenn die ID nicht gefunden wurde
-		}
+function getValueById(result, id) {
+	// Gehe durch alle 'value'-Elemente und finde das passende 'id'
+	const value = result.values.value.find(item => item.$.id === id);
+	if (value) {
+		return value._; // Gibt den Wert zurück
+	} else {
+		console.warn(`Kein Wert gefunden für ID: ${id}`);
+		return null; // Gibt null zurück, wenn die ID nicht gefunden wurde
 	}
+}
