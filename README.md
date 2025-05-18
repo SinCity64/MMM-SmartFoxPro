@@ -28,6 +28,9 @@ Hinweise:
 Anzeige:
 ![SmartFoxpro.PNG](https://github.com/SinCity64/MMM-SmartFoxPro/blob/8762721d3c745bb54826b3b8da301fecc1203c37/SmartFoxPro.png)
 
+
+# English---------------------------------------------------------------------------------------------------------------------------
+
 This is a MagicMirror module that reads the data from SmartFoxPro Energy Manager (your IP address/values.xml). See in the example Values.xml [Values.xml](https://github.com/SinCity64/MMM-SmartFoxPro/blob/71ab4732550ced66449d2ed4d214a6dfa38a84ae/Values.xml)
 
 The module displays the following data and can be extended as desired, assuming appropriate programming knowledge.
