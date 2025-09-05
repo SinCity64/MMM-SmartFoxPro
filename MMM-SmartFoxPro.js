@@ -3,7 +3,7 @@
 /* Magic Mirror
  * Module: MMM-SmartFox Pro
  *
- * By René Trafelet
+ * By SinCity64
  * MIT Licensed.
  */
 
@@ -281,3 +281,4 @@ Module.register("MMM-SmartFoxPro", {
         return wrapper;
     },
 });
+
