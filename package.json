@@ -2,7 +2,7 @@
   "name": "MMM-SmartFoxPro",
   "version": "1.0.0",
   "description": "Ein MagicMirror² Modul zur Anzeige der Strom-Daten von SmartFoxPro.",
-  "main": "MMM-FroniusSolar.js",
+  "main": "MMM-SmartFoxPro.js",
   "scripts": {
     "start": "echo 'Dieses Modul ist für den Einsatz im MagicMirror vorgesehen und wird dort automatisch geladen.'"
   },
