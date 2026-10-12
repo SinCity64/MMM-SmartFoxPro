@@ -74,7 +74,7 @@ git clone https://github.com/SinCity64/MMM-SmartFoxPro.git
 
 ## Using the module
 
-To use this module, add it to the modules array in the `config/config.js`
+To use this module, add it to the modules array in the `config/config.js`,
 Replace xxx.xxx.x.xxx with your IP
 
 ```js
